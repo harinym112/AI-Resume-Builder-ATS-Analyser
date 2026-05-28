@@ -16,7 +16,7 @@ function getGenAI(): GoogleGenAI {
   if (!aiInstance) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
-      throw new Error("GEMINI_API_KEY is not configured. Please add it via the Settings > Secrets menu in AI Studio.");
+      throw new Error("GEMINI_API_KEY is not configured.");
     }
     aiInstance = new GoogleGenAI({
       apiKey,
