@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Builder & ATS Analyzer",
+  "description": "A full-stack, AI-powered resume builder and ATS analyzer using Gemini 3.5 Flash for resume generation, ATS scoring, keyword suggestion, and PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
